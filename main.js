@@ -1,5 +1,5 @@
 setInterval(function() {
-    fetch("https://lampupintar.com/api")
+    fetch("https://lampupintar.herokuapp.com/api")
         .then((hasil) => hasil.json())
         .then((res) => {
             console.log(res);
